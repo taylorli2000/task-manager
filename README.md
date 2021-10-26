@@ -1,4 +1,4 @@
-# Task Managar
+# Task Manager
 
 Full stack web application that showcases CRUD operations</br>
 Built using MongoDB, Express.js, React, Node.js
