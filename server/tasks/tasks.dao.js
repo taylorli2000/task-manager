@@ -11,8 +11,8 @@ export default class tasksDAO {
     }
     try {
       tasks = await conn
-        .db(process.env.TASKS_MANAGER_DB_NS)
-        .collection(process.env.TASKS_MANAGER_COLLECTION_NS);
+        .db(process.env.TASK_MANAGER_DB_NS)
+        .collection(process.env.TASK_MANAGER_COLLECTION_NS);
     } catch (err) {
       console.error(`Unable to establish collection handles in tasksDAO: ${e}`);
     }
