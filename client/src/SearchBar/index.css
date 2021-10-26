@@ -1,0 +1,7 @@
+.SearchBar {
+  margin-top: 8em;
+}
+
+.form-floating {
+  width: calc(20vw + 100px);
+}
